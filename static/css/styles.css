@@ -1,0 +1,78 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Apply a responsive font size to the entire app */
+body {
+  font-size: 16px;
+}
+
+/* Add some padding and a background color to the body */
+body {
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+/* Style the app header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Style the navigation links */
+nav {
+  margin-top: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  color: #1ce5f3;
+  text-decoration: none;
+  padding: 5px 10px;
+  border: 1px solid #333;
+  border-radius: 3px;
+}
+
+/* nav ul li a:hover {
+  background-color: #333;
+  color: #fff;
+} */
+
+/* Style the task list */
+.task-list {
+  margin-top: 20px;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.task-list h2 {
+  margin-bottom: 10px;
+}
+
+.task-list ul {
+  list-style-type: none;
+}
+
+.task-list li {
+  margin-bottom: 10px;
+}
+
+.task-list li .delete-btn {
+  margin-left: 10px;
+  color: #f00;
+  cursor: pointer;
+}
